@@ -1,0 +1,170 @@
+[
+    {
+        "NAME": "循环输出HELLO",
+        "AUTOINTERVAL": 10,
+        "TYPE": "SWITCH",
+        "SCRIPTS": {
+            "ACTION": "LOOP",
+            "DATA": [
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_H",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_E",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_L",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_L",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_O",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },{
+                    "ACTION":"SLEEP",
+                    "DATA":{
+                        "INTERVAL":2000,
+                        "OFFSET":0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "NAME": "单次组合",
+        "AUTOINTERVAL": 10,
+        "TYPE": "BUTTON",
+        "SCRIPTS": {
+            "ACTION": "SINGLE",
+            "DATA": [
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_H",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_E",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_L",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_L",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_O",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },{
+                    "ACTION":"SLEEP",
+                    "DATA":{
+                        "INTERVAL":2000,
+                        "OFFSET":0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "NAME": "技能刷经验",
+        "AUTOINTERVAL": 0,
+        "TYPE": "SWITCH",
+        "SCRIPTS": {
+            "ACTION": "LOOP",
+            "DATA": [
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_H",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_E",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_L",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_L",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },
+                {
+                    "ACTION": "CLICK",
+                    "DATA": {
+                        "KEY": "KEY_O",
+                        "INTERVAL": 15,
+                        "OFFSET": 10
+                    }
+                },{
+                    "ACTION":"SLEEP",
+                    "DATA":{
+                        "INTERVAL":2000,
+                        "OFFSET":0
+                    }
+                }
+            ]
+        }
+    }
+]
